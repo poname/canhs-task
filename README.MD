@@ -1,8 +1,9 @@
 # Client and Package App
 ## How to run
+0. A Linux based machine is highly recommended!
 1. install docker compose on the machine
-2. `docker-compose build` or `docker compose build` if using the compose plug-in to build the project.
-3. `docker-compose up` or `docker compose up` if using the compose plug-in to run the project.
+2. execute `docker-compose build` or `docker compose build` if using the compose plug-in to build the project.
+3. execute `docker-compose up` or `docker compose up` if using the compose plug-in to run the project.
 4. open browser and go to `http://localhost:5050`
 
 ## Methods
@@ -29,3 +30,4 @@ The backend is running on `localhost:8080` and provides the folloing endpoints:
 - The databse is based on the H2 SQL database with annotated bootstrapping
 - The UI is implemented with Angular 10 running on Nginx. (the `front` folder)
 - backend and frontned are containerized using Docker (the `deploy` folder)
+- The frontend is inspired from this [repository](https://github.com/RameshMF/Angular10-SpringBoot-CRUD-Tutorialhttp:// "repo")
