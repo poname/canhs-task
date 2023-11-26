@@ -30,4 +30,4 @@ The backend is running on `localhost:8080` and provides the folloing endpoints:
 - The databse is based on the H2 SQL database with annotated bootstrapping
 - The UI is implemented with Angular 10 running on Nginx. (the `front` folder)
 - backend and frontned are containerized using Docker (the `deploy` folder)
-- The frontend is inspired from this [repository](https://github.com/RameshMF/Angular10-SpringBoot-CRUD-Tutorialhttp:// "repo")
+- The frontend is inspired from this [repository](https://github.com/RameshMF/Angular10-SpringBoot-CRUD-Tutorial"repo")
