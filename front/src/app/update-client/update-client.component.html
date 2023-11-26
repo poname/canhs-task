@@ -1,0 +1,21 @@
+<h3>Update Client</h3>
+<div style="width: 400px;">
+  <form (ngSubmit)="onSubmit()" [formGroup]="reactiveForm">
+    <div class="form-group">
+      <label for="firstName">First Name</label>
+      <input type="text" class="form-control" id="firstName" required [(ngModel)]="client.firstName" name="firstName" formControlName="firstName">
+    </div>
+
+    <div class="form-group">
+      <label for="lastName">Last Name</label>
+      <input type="text" class="form-control" id="lastName" required [(ngModel)]="client.lastName" name="lastName" formControlName="lastName">
+    </div>
+
+    <div class="form-group">
+      <label for="id">ID</label>
+      <input type="text" class="form-control" id="id" required [(ngModel)]="client.id" name="id" disabled formControlName="id">
+    </div>
+
+    <button type="submit" class="btn btn-success" [disabled]="reactiveForm.invalid">Submit</button>
+  </form>
+</div>

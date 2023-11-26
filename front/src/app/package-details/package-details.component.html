@@ -1,0 +1,24 @@
+<h2>Package Details</h2>
+
+<hr/>
+<div *ngIf="pack">
+  <div>
+    <label><b>Name: </b></label> {{pack?.name}}
+  </div>
+  <div>
+    <label><b>ID: </b></label> {{pack?.id}}
+  </div>
+  <div>
+    <label><b>Client: </b></label>
+    <a [routerLink]="['/client/details', pack?.client?.id]"> {{pack?.client?.firstName + ' ' + pack?.client?.lastName}}</a>
+  </div>
+  <div>
+    <label><b>Client ID: </b></label> {{pack?.client?.id}}
+  </div>
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Package List</button><br>
+
+

@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  front:
+    build: ./deploy/front
+    ports:
+      - "5000:80"
+  back:
+    build: ./deploy/back
+    ports:
+      - "8080:8080"
