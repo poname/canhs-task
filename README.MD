@@ -21,7 +21,7 @@ Table Package {
 
 Ref: Client.id < Package.id
 ```
-![alt text](https://github.com/poname/canhs-task/blob/erd.png?raw=true)
+![alt text](https://raw.githubusercontent.com/poname/canhs-task/main/blob/erd.png?raw=true)
 
 
 
