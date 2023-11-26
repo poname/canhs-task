@@ -17,9 +17,10 @@ Table Client {
 Table Package {
 	id varchar [primary key]
 	name varchar
+	client_id varchar
 }
 
-Ref: Client.id < Package.id
+Ref: Client.id < Package.client_id
 ```
 ![alt text](https://raw.githubusercontent.com/poname/canhs-task/main/blob/erd.png?raw=true)
 
