@@ -51,3 +51,7 @@ The backend is running on `localhost:8080` and provides the folloing endpoints:
 - The UI is implemented with Angular 10 running on Nginx. (the `front` folder)
 - backend and frontned are containerized using Docker (the `deploy` folder)
 - The frontend is inspired from this [repository](https://github.com/RameshMF/Angular10-SpringBoot-CRUD-Tutorialhttp:// "repo")
+
+## Demo
+<img src="https://raw.githubusercontent.com/poname/canhs-task/main/blob/demo-clients-1.png?raw=true" width="23%"></img> <img
+src="https://raw.githubusercontent.com/poname/canhs-task/main/blob/demo-clients-2.png?raw=true" width="23%"></img> <img src="https://raw.githubusercontent.com/poname/canhs-task/main/blob/demo-clients-3.png?raw=true" width="23%"></img> <img src="https://raw.githubusercontent.com/poname/canhs-task/main/blob/demo-clients-4.png?raw=true" width="23%"></img> <img src="https://raw.githubusercontent.com/poname/canhs-task/main/blob/demo-packages-1.png?raw=true" width="23%"></img> <img src="https://raw.githubusercontent.com/poname/canhs-task/main/blob/demo-packages-2.png?raw=true" width="23%"></img> <img src="https://raw.githubusercontent.com/poname/canhs-task/main/blob/demo-packages-3.png?raw=true" width="23%"></img> <img src="https://raw.githubusercontent.com/poname/canhs-task/main/blob/demo-packages-4.png?raw=true" width="23%"></img>
